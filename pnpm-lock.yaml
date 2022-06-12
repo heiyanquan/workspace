@@ -1,0 +1,17 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      '@hs-ele/a': workspace:*
+      '@hs-ele/b': workspace:*
+    dependencies:
+      '@hs-ele/a': link:packages/pkg1
+      '@hs-ele/b': link:packages/pkg2
+
+  packages/pkg1:
+    specifiers: {}
+
+  packages/pkg2:
+    specifiers: {}

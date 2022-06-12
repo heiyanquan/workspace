@@ -12,5 +12,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "@hs-ele/a": "workspace:*",
+    "@hs-ele/b": "workspace:*"
   }
 }
